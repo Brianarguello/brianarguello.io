@@ -1,0 +1,148 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: monospace;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: rgb(5, 10, 63);
+}
+
+header {
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 40px;
+    color: rgb(8, 146, 238);
+}
+
+ul {
+    display: flex;
+}
+
+h1 {
+    font-size: 20px;
+}
+
+li {
+    list-style: none;
+    margin: 0 10px;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(8, 146, 238);
+}
+.seccion1 {
+    padding: 50px ;
+    background: url(img/Portada-1.jpeg) no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+.seccion1 figure {
+    display: flex;
+    justify-content: center;
+}
+
+.perfil {
+    width: 250px;
+    padding: 13vh 0;
+    border-radius: 50%;
+}
+
+h2 {
+    text-align: center;
+}
+
+.seccion2 {
+    margin: 20px;
+    background-color: white;
+    border-radius: 20px;
+}
+
+.seccion2 h2 {
+    padding: 2vh;
+}
+
+.seccion2 p {
+    text-align: center;
+    padding: 5vh;
+}
+
+.seccion3 {
+    margin: 20px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 20px; 
+}
+
+.area {
+    padding: 10px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.html, .css, .py {
+    width: 150px;
+}
+
+.js {
+    width: 290px;
+}
+
+footer {
+    background-color: black;
+}
+
+figure {
+    display: flex;
+    justify-content: center;
+    padding: 60px;
+}
+
+footer a {
+    justify-content: center;
+    margin: 20px;
+}
+
+footer a img {
+    width: 70px;
+}
+
+@media screen and (max-width: 800px) {
+    header {
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    ul {
+        padding: 20px 0;
+    }
+
+    .area {
+        flex-direction: column;
+    }
+
+    .html, .css, .py {
+        width: 50px;
+        height: 50px;
+    }
+
+    .js {
+        width: 110px;
+    }
+
+    figure {
+        padding: 10px;
+    }
+
+    footer a img {
+        width: 50px;
+    }
+}
